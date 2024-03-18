@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pattambi PL Scoreboard</title>
+<style>
+  body {
+    background-color: #1a1a1a; /* Set background color of site to a color between #111 and #222 */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white; /* Set font color to white */
+  }
+  .header-bar {
+    background-color: #222;
+    border-bottom: 2px solid gold;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    border-bottom: 2px solid gold;
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+    margin-top: 40px;
+    color: #222;
+    font-size: 44px; /* Changed font size to 44px */
+    text-align: center;
+    font-weight: bold;
+    font-family: "Arial Black", sans-serif; /* Using Arial Black for a bold and professional look */
+    text-transform: capitalize; /* Capitalizing the first letter of each word */
+    background-color: #222; /* Even darker grey color for title background */
+    padding: 10px 20px; /* Added padding for better visibility */
+    border-radius: 10px; /* Rounded corners for the title */  
+  }
+  .title span {
+    
+  }
+  .gold {
+    color: gold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gold;
+  }
+  .white {
+    color: white; /* Set font color to white */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+  }
+  .rounded-rectangle {
+    width: 90%;
+    min-width: 600px; /* Minimum width set to 600px */
+    max-width: 80%; /* Ensuring it doesn't exceed 90% of the viewport */
+    border-radius: 20px;
+    background-color: #222; /* Even darker grey color for rectangle background */
+    border: 2px solid gold;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Smooth drop shadow */
+    margin: 120px auto 0; /* Centering the rectangle horizontally and adjusting top margin */
+    padding: 20px; /* Adding padding inside the rounded rectangle */
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: centre;
+  }
+
+  th, td {
+    border-bottom: 1px solid #ccc; /* Only show bottom border */
+    padding: 8px;
+    text-align: center;
+  }
+
+  th:first-child, td:first-child {
+    border-left: none; /* Remove left border for leftmost cells */
+  }
+
+  th:last-child, td:last-child {
+    border-right: none; /* Remove right border for rightmost cells */
+  }
+
+  th {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: #333;
+    font-weight: lighter;
+  }
+
+tr:nth-child(odd) td {
+    background-color: #444;
+}
+
+/* New Element Styles */
+.fixed-element {
+  position: fixed;
+  top: 20px; /* Adjust top position as needed */
+  right: 20px; /* Adjust right position as needed */
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+  <div class="header-bar">
+    <h1 class="title"><span class="gold">Pattambi</span> <span class="white">premier league</span></h1>
+  </div>
+  <div class="rounded-rectangle">
+    <table>
+      <thead>
+        <tr>
+          <th>Members</th>
+          <th>W</th>
+          <th>D</th>
+          <th>L</th>
+          <th>Pts</th>
+          <th>GF</th>
+          <th>GA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Goutham KVR</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Joshua Joseph</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Karthik Krishna</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Krishnalal BR</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Muhaimin</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Arjun EA</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Sam Thomas</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Akshith Ajith</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Rahul VK</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Naveen Santhosh</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Nephin J</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Joseph George</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Allen Shaji</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0
+</td>          
+        </tr>
+        <tr>
+          <td>Mhd Adnan</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>          
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <!-- New Element -->
+  <div class="fixed-element" onclick="window.location.href='https://www.instagram.com/direct/t/17842737845740835'">@Pattambi.Squad</div>
+</body>
+</html>
